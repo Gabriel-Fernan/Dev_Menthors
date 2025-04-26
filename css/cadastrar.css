@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(56, 179, 255);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cadastrar{
+    background-color: white;
+}
+
+.form-container form {
+    text-align: left;
+    width: 25%;
+    margin: 15px;
+    padding: 15px;
+    border: 2px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.form-container form button {
+    padding: 10px;
+    background-color: rgb(56, 179, 255);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
