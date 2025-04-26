@@ -16,11 +16,15 @@ body {
 .navbar {
     width: 100%;
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 25px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #ddd;
+}
+
+.navbar h5{
+    color: #528cf2;
 }
 
 .navbar nav a {
@@ -35,9 +39,14 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 20px;
+    height: 100%;
     padding: 20px;
     background-color: #fff;
+}
+
+.text-form{
+    margin-left: 30px;
+    height: 100%;
 }
 
 .text-container {
@@ -45,12 +54,22 @@ body {
     padding: 20px;
 }
 
+.text-container p{
+    color: #8f8d8d;
+}
+
 .text-container h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
+.form-container{
+    border: solid 1px;
+    border-radius: 20px;
+}
+
 .form-container form {
+    color: #8f8d8d;
     margin: 15px;
     padding: 15px;
     border: 2px gray;
@@ -64,12 +83,12 @@ body {
     border: 1px solid #ddd;
     border-radius: 10px;
     width: 100%;
-    background-color: rgb(238, 238, 238);
+    background-color: #f8f8f8;
 }
 
 .form-container form button {
     padding: 10px;
-    background-color: rgb(56, 179, 255);
+    background-color: #2870ef;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -78,22 +97,29 @@ body {
 }
 
 .form-container a{
+    margin-left: 5px;
+    text-decoration: bold;
     text-decoration: none;
     color: rgb(56, 179, 255);
 }
 
 .form-container p{
+    margin-left: 77px;
+    color: black;
     display: flex;
     text-align: center;
 }
 
 .img-container {
-    background-color: rgb(56, 179, 255);
+    background-color: #4a8cff;
     width: 50%;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .img-container img {
+    margin-left: 50px;
+    height: 70%;
     max-width: 100%;
 }
